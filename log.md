@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: November 9, 2020
+### Day 0: November 9, 2020
 
 **Today's Progress**: Committed to starting 100 days of code. Played around with making text fade in and out but it isn't working how I want it to. 
 
@@ -8,3 +8,12 @@
 
 **Link to work:**
 https://github.com/zoerem/100-days-of-code/tree/master/PlayingAround
+
+### Day 3: November 12, 2020
+
+**Today's Progress**: I didn't upload anything on days 1 and 2. I started a js course and played around more.  
+Today I wrote the html structure for the Jaibalito site though I need to learn how to make a contact form and then insert that. 
+
+**Next Steps:** 
+Images and CSS for the jaibalito site.
+Figure out how to make a contact form. 

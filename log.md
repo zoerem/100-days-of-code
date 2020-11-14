@@ -17,3 +17,9 @@ Today I wrote the html structure for the Jaibalito site though I need to learn h
 **Next Steps:** 
 Images and CSS for the jaibalito site.
 Figure out how to make a contact form. 
+
+### Day 4: November 13, 2020
+
+**Today's Progress**: Worked on jquery in Playing around, trying to get text to fade from one to other. Got it working then somehow made it not work. 
+
+**Thoughts:**: So many parentheses. 

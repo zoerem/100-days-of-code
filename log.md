@@ -23,3 +23,11 @@ Figure out how to make a contact form.
 **Today's Progress**: Worked on jquery in Playing around, trying to get text to fade from one to other. Got it working then somehow made it not work. 
 
 **Thoughts:**: So many parentheses. 
+
+### Day 5
+
+**Today's Progress**: Fixed some errors on my portfolio. Going to change header font. 
+
+Located in repo zoerem 
+
+

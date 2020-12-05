@@ -9,6 +9,7 @@
                 font-family: 'roboto', sans-serif;
                 max-width: 900px;
                 margin: 0 auto;
+                padding: 0;
             }
             img{
                 max-width:900px;
@@ -16,9 +17,6 @@
             }
             div{
                 margin: 16em 4em 6em;
-                position: absolute;
-                top:1em;
-                z-index: 999;
                 max-width: 768px;
             }
             p{
@@ -40,12 +38,25 @@
                 padding-top: 24px;
                 color: #032502;
             }
-            
+            table{
+                width: 100%;
+                height: 100%;
+                border: 0;
+                background-image: url(images/background-img.png);
+                background-repeat: no-repeat;
+            }
+            td{
+                height: auto;
+            }
         </style>
        
     </head>    
     <body>
-        <img src="images/background-img.png">
+        <table>
+            <tr>
+            <td>
+            
+        <!-- <img src="images/background-img.png"> -->
         <div>
         <p>
             I hope this note finds you well and happy. I have had a lot of time to reflect this year on what I am grateful for and one of my greatest blessings has been good people like you that I have been privileged to get to know throughout my life. My greatest regret is that haven’t done a better job of staying in touch.
@@ -97,9 +108,11 @@
             I hope you will join in looking for ways, big and small, to be a hero in 2021.
         </h3>
         </div>
-
-
-            </body>
+        
+            </td>
+            </tr>    
+            </table>
+        </body>
 
 
 </html>

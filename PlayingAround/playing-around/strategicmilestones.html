@@ -4,13 +4,22 @@
         <style>
              @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
             body{
-                background-image:url(images/background-img.png);
-                background-repeat: no-repeat;
+                /* background-image:url(images/background-img.png);
+                background-repeat: no-repeat; */
                 font-family: 'roboto', sans-serif;
                 max-width: 900px;
+                margin: 0 auto;
+            }
+            img{
+                max-width:900px;
+                z-index: -1;
             }
             div{
                 margin: 16em 4em 6em;
+                position: absolute;
+                top:1em;
+                z-index: 999;
+                max-width: 768px;
             }
             p{
                 font-family: 'roboto', sans-serif;
@@ -36,6 +45,7 @@
        
     </head>    
     <body>
+        <img src="images/background-img.png">
         <div>
         <p>
             I hope this note finds you well and happy. I have had a lot of time to reflect this year on what I am grateful for and one of my greatest blessings has been good people like you that I have been privileged to get to know throughout my life. My greatest regret is that haven’t done a better job of staying in touch.
@@ -83,7 +93,7 @@
         <p>
             There are opportunities every day to make a personal sacrifice or do the hard or scary thing. At work, with friends or within our families we can choose to do what is in our power to make someone else’s life better or for the benefit of the whole group.
         </p>
-        <h3 style="padding-bottom:60px;">
+        <h3 style="padding: 32px 3em 60px; text-align: center;">
             I hope you will join in looking for ways, big and small, to be a hero in 2021.
         </h3>
         </div>

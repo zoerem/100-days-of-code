@@ -36,19 +36,40 @@
                 color: #2c2c2c;
                 line-height: 1.25em;
             }
-            
+            .background{
+                background-image: url(https://zoerem.github.io/PlayingAround/PlayingAround/playing-around/images/NY-background3.png);
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover; max-width: 900px;
+            }
+            .text{
+                padding: 25% 10%;
+            }
+
+            @media only screen and (max-width:400px) {
+                .background{
+                    background-image: url(https://zoerem.github.io/PlayingAround/PlayingAround/playing-around/images/background-mobile.png);
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover; max-width: 375px;
+                }   
+            }
+            @media only screen and (max-width:900px) {
+                .background{
+                    background-image: url(https://zoerem.github.io/PlayingAround/PlayingAround/playing-around/images/background-ipad.png);
+                background-position: top center;
+                background-repeat: no-repeat;
+                background-size: cover; max-width: 800px;
+                }   
+            }
+
         </style>
        
     </head>    
     <body>
-        <div style="max-width: 900px; margin-bottom: -2em;">
-        <img src="https://zoerem.github.io/PlayingAround/PlayingAround/playing-around/images/background-imgTOP.png">
-        </div>
-        <div style="background-image: url(https://zoerem.github.io/PlayingAround/PlayingAround/playing-around/images/background-img.png);
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-size: cover; max-width: 900px;">
-       <div style="padding: 2em 8em; margin-top: -2em;"> 
+       
+        <div class="background">
+       <div class="text"> 
            <p>
             I hope this note finds you well and happy. I have had a lot of time to reflect this year on what I am grateful for and one of my greatest blessings has been good people like you that I have been privileged to get to know throughout my life. My greatest regret is that haven’t done a better job of staying in touch.
         </p>    
@@ -103,16 +124,12 @@
         </h3>
         <p>Katie Gilbert</p>
         <br>
-        <a href="mailto:katie.gilbert@strategicmilestones.com" target="_blank">katie.gilbert@strategicmilestones.com</a>
-        <br>
         <a href="tel:2147255304">214.725.5304</a>
+        <br>
+        <a href="mailto:katie.gilbert@strategicmilestones.com" target="_blank">katie.gilbert@strategicmilestones.com</a>
         <br>
         <a href="http://www.strategicmilestones.com">www.strategicmilestones.com</a>
     </div>
-    </div>
-    <div style="max-width: 900px; margin-top: -2em;"> 
-        <img src="https://zoerem.github.io/PlayingAround/PlayingAround/playing-around/images/background-imgBTM.png">
-
     </div>
         </body>
 
